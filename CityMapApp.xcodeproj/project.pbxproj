@@ -13,6 +13,7 @@
 		3315C5D22978B8A400D8D39E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3315C5D02978B8A400D8D39E /* Main.storyboard */; };
 		3315C5D42978B8A500D8D39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3315C5D32978B8A500D8D39E /* Assets.xcassets */; };
 		3315C5D72978B8A500D8D39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3315C5D52978B8A500D8D39E /* LaunchScreen.storyboard */; };
+		3315C5DF297A221800D8D39E /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3315C5DE297A221800D8D39E /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3315C5D32978B8A500D8D39E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3315C5D62978B8A500D8D39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3315C5D82978B8A500D8D39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3315C5DE297A221800D8D39E /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3315C5D32978B8A500D8D39E /* Assets.xcassets */,
 				3315C5D52978B8A500D8D39E /* LaunchScreen.storyboard */,
 				3315C5D82978B8A500D8D39E /* Info.plist */,
+				3315C5DE297A221800D8D39E /* City.swift */,
 			);
 			path = CityMapApp;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				3315C5CF2978B8A400D8D39E /* ViewController.swift in Sources */,
 				3315C5CB2978B8A400D8D39E /* AppDelegate.swift in Sources */,
+				3315C5DF297A221800D8D39E /* City.swift in Sources */,
 				3315C5CD2978B8A400D8D39E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G97VG6899Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CityMapApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G97VG6899Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CityMapApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
